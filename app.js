@@ -51,6 +51,8 @@ let newflash = () => {
 }
 
 if(screen.width <550){
+
+    heading.innerText("Press anywhere to start");
     window.addEventListener("click"  , () => {
         if(start == false){
             levelup();
@@ -64,7 +66,9 @@ if(screen.width <550){
                 g.classList.add("none");
                 }
         }
-    }})
+    }
+
+})
 }
 
 window.addEventListener("keypress", () => {
