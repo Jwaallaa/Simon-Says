@@ -34,7 +34,9 @@ redflash = () => {
 
 
 let levelup = () => {
+    score.innerText = `SCORE : ${Points}`;
     heading.innerText = `Level ${++level}`;
+    Points += 10;
     newflash();
     user = [];
 }
@@ -46,6 +48,23 @@ let newflash = () => {
     console.log("flashed");
     simon.push(button.getAttribute("id"));
     console.log(simon);
+}
+
+if(screen.width <550){
+    window.addEventListener("click"  , () => {
+        if(start == false){
+            levelup();
+        start = true;
+        for (g of gameovr) {
+            if(g.classList.contains("none")){
+                
+            
+            }
+            else{
+                g.classList.add("none");
+                }
+        }
+    }})
 }
 
 window.addEventListener("keypress", () => {
