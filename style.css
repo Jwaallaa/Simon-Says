@@ -16,7 +16,7 @@ h1{
     text-align: center;
     margin: 15px auto;
     /* width: 60vw; */
-    border: 2px solid red;
+    
 
 }
 
@@ -25,7 +25,7 @@ h3{
     text-align: center;
     margin: 15px auto;
     width: 60vw;
-    border: 2px solid red;
+    
 
 }
 
@@ -41,7 +41,7 @@ h3{
 }
 
 .boxes{
-    border: 2px solid red;
+    
     display: flex;
     width: 500px;
     /* height: 500px; */
@@ -105,6 +105,5 @@ h3{
     }
     .boxes{
         width: 400px;
-        background-color: white;
     }
 }
