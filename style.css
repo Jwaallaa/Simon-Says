@@ -1,109 +1,97 @@
-*{
-    margin: 0;
-    padding: 0;
-    color: wheat;
+* {
+  margin: 0;
+  padding: 0;
+  color: wheat;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-.bodyred{
-    background-color: red;
-
+.bodyred {
+  background-color: red;
 }
-h1{
-    text-align: center;
-    margin: 15px auto;
-    /* width: 60vw; */
-    
-
+h1 {
+  text-align: center;
+  margin: 15px auto;
+  /* width: 60vw; */
 }
 
-h3{
-
-    text-align: center;
-    margin: 15px auto;
-    width: 60vw;
-    
-
+h3 {
+  text-align: center;
+  margin: 15px auto;
+  width: 60vw;
 }
 
-
-
-
-.box{
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    border: 5px solid rgb(91, 91, 91);
-    margin: 5px 5px;
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 5px solid rgb(91, 91, 91);
+  margin: 5px 5px;
 }
 
-.boxes{
-    
-    display: flex;
-    width: 500px;
-    /* height: 500px; */
-    flex-wrap: wrap;
-    margin: 80px auto;
-    justify-content: center;
-    align-items: normal;
-    
+.boxes {
+  display: flex;
+  width: 500px;
+  /* height: 500px; */
+  flex-wrap: wrap;
+  margin: 80px auto;
+  justify-content: center;
+  align-items: normal;
 }
 
-.red{
-    background-color: rgb(233, 86, 86);
+.red {
+  background-color: rgb(233, 86, 86);
 }
-.blue{
-    background-color: rgb(102, 102, 249);
+.blue {
+  background-color: rgb(102, 102, 249);
 }
-.green{
-    background-color: rgb(134, 240, 134);
+.green {
+  background-color: rgb(134, 240, 134);
 }
-.yellow{
-    background-color: rgb(229, 229, 108);
-}
-
-.flash{
-    background-color: whitesmoke;
+.yellow {
+  background-color: rgb(229, 229, 108);
 }
 
-.none{
-    display: none;
+.flash {
+  background-color: whitesmoke;
 }
-.game{
-    position: absolute;
-    height:100px;
-    text-wrap: wrap;
-    width: 20px;
-    padding-top: 40px;
-    left: 50vh;
-    font-size: 34px;
-    color: wheat;
-    text-orientation: upright;
-    writing-mode: vertical-lr;
-}
-.over{
-    position: absolute;
-    height:100px;
-    text-wrap: wrap;
-    width: 20px;
-    padding-top: 40px;
-    right: 50vh;
-    font-size: 34px;
-    color: wheat;
-    text-orientation: upright;
-    writing-mode: vertical-lr;
 
+.none {
+  display: none;
+}
+.game {
+  position: absolute;
+  height: 100px;
+  text-wrap: wrap;
+  width: 20px;
+  padding-top: 40px;
+  left: 50vh;
+  font-size: 34px;
+  color: wheat;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+}
+.over {
+  position: absolute;
+  height: 100px;
+  text-wrap: wrap;
+  width: 20px;
+  padding-top: 40px;
+  right: 50vh;
+  font-size: 34px;
+  color: wheat;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
 }
 
 @media screen and (max-width: 500px) {
-    .box{
-        width: 150px;
-        height: 150px;
-    }
-    .boxes{
-        width: 400px;
-    }
+  .box {
+    width: 150px;
+    height: 150px;
+  }
+  .boxes {
+    width: 400px;
+  }
 }
