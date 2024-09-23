@@ -51,8 +51,8 @@ let newflash = () => {
 }
 
 if(screen.width <550){
-
-    heading.innerText("Press anywhere to start");
+    console.log("screen size");
+    heading.innerText= "Press anywhere to start";
     window.addEventListener("click"  , () => {
         if(start == false){
             levelup();
