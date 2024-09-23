@@ -14,29 +14,41 @@ body{
 }
 h1{
     text-align: center;
-    margin: 15px;
+    margin: 15px auto;
+    /* width: 60vw; */
+    border: 2px solid red;
 
 }
 
 h3{
+
     text-align: center;
-    margin: 15px;
+    margin: 15px auto;
+    width: 60vw;
+    border: 2px solid red;
+
 }
+
+
+
 
 .box{
     width: 200px;
     height: 200px;
     border-radius: 20px;
     border: 5px solid rgb(91, 91, 91);
-    margin: 5px;
+    margin: 5px 5px;
 }
 
 .boxes{
+    border: 2px solid red;
     display: flex;
     width: 500px;
+    /* height: 500px; */
     flex-wrap: wrap;
     margin: 80px auto;
     justify-content: center;
+    align-items: normal;
     
 }
 
@@ -84,4 +96,15 @@ h3{
     text-orientation: upright;
     writing-mode: vertical-lr;
 
+}
+
+@media screen and (max-width: 500px) {
+    .box{
+        width: 150px;
+        height: 150px;
+    }
+    .boxes{
+        width: 400px;
+        background-color: white;
+    }
 }
